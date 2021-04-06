@@ -1,15 +1,27 @@
 .main {
-padding: 150px 0;
+padding:  0;
+margin: 0;
+height: 100%;
+background:  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("https://images.unsplash.com/photo-1532618500676-2e0cbf7ba8b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=707&q=80");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
 position: relative;
 }
 .btn {
 width: 100%;
 }
-body{
-background:  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("https://images.unsplash.com/photo-1532618500676-2e0cbf7ba8b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=707&q=80");
-background-size: cover;
-background-position: center;
+html,body{
+height: 100%;
 font-family: 'Nunito', sans-serif;
+}
+hr{ 
+border: 0;
+height: 1px;
+background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+width: 50%;
+
 }
 .centered {
 position: fixed;
