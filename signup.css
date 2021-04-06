@@ -1,15 +1,25 @@
 .main {
 padding: 150px 0;
-position: relative; }
+position: relative;
+}
 .btn {
 width: 100%;
 }
 body{
-
-background:  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("https://images.unsplash.com/photo-1532618500676-2e0cbf7ba8b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=707&q=80");
+background:  linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("https://images.unsplash.com/photo-1532618500676-2e0cbf7ba8b8?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=707&q=80") no-repeat center center fixed;
 background-size: cover;
 background-position: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 font-family: 'Nunito', sans-serif;
+}
+.centered {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 .container {
 width: 520px;
@@ -24,7 +34,8 @@ border-radius: 10px;
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 -o-border-radius: 10px;
--ms-border-radius: 10px; }
+-ms-border-radius: 10px;
+}
 .sign-up-content {
 padding: 40px 60px 32px 60px;
 position: relative;
